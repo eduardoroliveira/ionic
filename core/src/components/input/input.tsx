@@ -91,9 +91,9 @@ export class Input implements ComponentInterface {
   /**
    * A hint to the browser for which keyboard to display.
    * Possible values: `"none"`, `"text"`, `"tel"`, `"url"`,
-   * `"email"`, `"numeric"`, `"decimal"`, and `"search"`.
+   * `"email"`, `"numeric"`, `"decimal"`, `"search"` and `"file"`.
    */
-  @Prop() inputmode?: 'none' | 'text' | 'tel' | 'url' | 'email' | 'numeric' | 'decimal' | 'search';
+  @Prop() inputmode?: 'none' | 'text' | 'tel' | 'url' | 'email' | 'numeric' | 'decimal' | 'search' | 'file';
 
   /**
    * The maximum value, which must not be less than its minimum (min attribute) value.
